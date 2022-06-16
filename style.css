@@ -1,0 +1,70 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color:  hsl(0, 0%, 95%);
+}
+main
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+     
+}
+.row
+{
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 200px;
+    color: hsla(0, 0%, 100%, 0.75);
+;
+}
+.item1, .item2, .item3
+{
+    background-color: hsl(31, 77%, 52%);
+    width: 300px;
+    height: 50vh;
+    font-size: 15px;
+    font-family: 'Kdam Thmor Pro', sans-serif, 'Noto Sans JP';
+    font-weight: 400px;
+    text-align: center;
+    padding-top: 50px;
+
+}
+.item2
+{
+    background-color: hsl(184, 100%, 22%);
+}
+.item3
+{
+    background-color: hsl(179, 100%, 13%);
+}
+img{
+    justify-content: right;
+    align-self: start;
+}
+p{
+    font-family: 'Macondo', 'cursive', 'Noto Sans KR', sans-serif,  'Noto Serif JP';
+    color: hsl(0, 0%, 95%);
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: start;
+}
+.btns{
+    border: 2px solid#c4c4c4;
+    border-radius: 90px;
+    color: black;
+    overflow: hidden;
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    margin-top: 100px;
+    cursor: pointer;
+    color: clear;
+
+}
